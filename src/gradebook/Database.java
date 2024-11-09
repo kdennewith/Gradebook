@@ -17,7 +17,7 @@ public class Database {
     public static void connection(){
         String url = "jdbc:mysql://localhost:3306/gradebookdb";
         String username = "root";
-        String password = "k2012346";
+        String password = "password";
 
         try{
             con = DriverManager.getConnection(url, username, password);
